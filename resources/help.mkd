@@ -1,0 +1,50 @@
+# What is GetExtIP?
+	GetExtIP shows the external (or public) IP address used by the device on which it is installed. In many cases, your Internet Service Provider (ISP) does not give you a permanent (aka "Static") IP address on the Internet. So, if you need to access your device remotely using the Internet, you will need to know what your public IP address is. And since a non-static IP address can change when your cable modem is rebooted, or something changes your connection, you can easily be in a situation where you are away from your device with no way to get to it remotely. GetExtIP is here to help!
+
+# Does this app need to be running to work?
+	Yes, if the app is not running, it cannot work. Simply run the app as you normally would then minimize it and leave it running at all times. This way, it will be ready when you need it when you are away from your device. It uses very minimal resources between checking for changes and when it is updating its information, it only runs for a few seconds.
+
+# What is "Current External IP Address"?
+	This is where the current IP address is shown by the app.
+
+# What is "Previous External IP Address"?
+	Sometimes it is helpful to see what the last IP address was and this is where we show it to you.
+
+# What is "Time Until Next Check"?
+	This is where you can see the countdown until the next automatic update of the external IP address by the app. The time between checks can be set by choosing *"Setup"* from the menu, then clicking the *"Time Until Next Check"* box. You will be presented with a short list of time in hours to wait for between checks.
+
+# What is "Check Now"?
+	This button will force the app to immediately check the external IP address and update its information if there has been a change. This will only work if all the *"Setup"* items have been correctly set and the app will not text you with the answer as you are obviously sitting near the device in order to press the button.
+
+# What is "Setup"?
+	This button is used to access the settings menu for the app. You will be guided here the first time you use the app on a new device and all of its selections must be properly filled out in order for the app to work properly. If any of the selections have not yet been filled out, they will say <span style="color:red">**"NOT SET"**</span> in red.
+	All of the items in red must be properly filled out before the app will be able to work properly. Please continue to read the help screen for information about each of these settings.
+
+# What is "Phone Number to Send Text Updates to"?
+	This is the place where you will enter the phone number where the app will send all of its update texts to. Ideally, you will put your cell phone number here, as sending your public IP address to someone else would probably be considered weird and less than useful.
+	In any case, the usual text messaging disclaimers apply here, such as <u>"You may be charged for receiving text messages by your cellular carrier"</u> or <u>"Message and data rates may apply"</u>.
+	As such, Advanced Design and Manufacturing, LLC, its partners, employees, friends or anyone else who may be in the room at any point in time, cannot (*will not, may not and certainly should not*) be held responsible for these charges as you are the one who purchased, installed, configured and ran this app.
+	You have been warned!
+
+# What is "SMTP Server Address for Sending Texts"?
+	This is where you put your email server address just like you used in your email client app. It should look something like this: *smtp.babamba.com* This account will be used by the app to send simple text messages when your device's external IP address changes. The app never sends emails, nor does it even know how to send or receive them.
+
+# What is "Email Address to Send Texts From"?
+	Put your matching email address here so that the app can use your email account to send its update texts.
+
+# What is "Email Sending Account Password"?
+	Put your email account password here so that the app can use your email account to send text updates. You will not be able to see the password as you enter it for security purposes, nor do we check your password by making you enter it twice. We have no rules to how good or bad your password is, and the app uses your device's keychain, keyring, or whatever it's called to securely store your email password. Your email account password is not stored by the app itself, so if it gets stolen, don't blame us...
+	Your operating system may ask you for permission to store or recall your password during setup or even occasionally when using the app. This is normal and controlled by your device's OS and its settings.
+
+# What is "Selected SMS Gateway"?
+	Here's where things get weird and unusually technical sounding. Pressing this button presents a list of SMS gateways each of which are unique to your cellular provider and are needed in order to prepare and send the text messages the app provides. Usually, you just need to enter the one that matches the name of your cellular provider. Well, except for Sprint, who makes you choose from either "*Sprint PCS*" or "*Sprint*".
+	My suggestion is to try each one, with everything else set up first, then test the gateway by using the "*Test SMS Reporting*" button on the "*Setup*" menu. One should work, one may not work.
+
+# What is "Name to Use When Texts Are Sent"?
+	This excitingly named button is where you will want to enter a simple location name for the device you have installed the app on so that when you get messages you can tell what device has sent it to you if you have multiple devices. Clever, yes? Keep it short and simple like "My PC - At home" or something. Since you are the (most likely) recipient of these texts, you should be able to keep it short and sweet.
+
+# What is "Time Until Next Check"?
+	By pressing this button, you will be presented with another two buttons. One of them is intriguingly labeled "*Select time interval between IP checks (in hours)*". Pressing this will give you a list of choices that you can choose from for waiting times between IP checks. The shortest time is 24 hours which (remarkably) is equal to a standard Earth day. This seemingly slow update rate is deliberately chosen to not overload the server that performs the IP determination. Hopefully your public IP address will not change all that often, they usually don't...
+
+# What is "Test SMS Reporting"?
+	This button can be handy for seeing if all of your settings are correct, so you don't have to wait for your IP address to change before seeing your first text message from the app. Pressing this button will force the app to immediately perform a public IP address check and report its finding via text to your phone. It will only work if you have successfully set up all the items in the "Setup" screen.

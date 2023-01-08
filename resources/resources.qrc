@@ -1,0 +1,32 @@
+<RCC>
+  <qresource prefix="images">
+    <file>images/Goldie.png</file>
+    <file>images/logo.jpeg</file>
+    <file>images/splash.png</file>
+  </qresource>
+  <qresource prefix="fonts">
+    <file>fonts/gear-solid.svg</file>
+    <file>fonts/info-solid.svg</file>
+    <file>fonts/question-solid.svg</file>
+  </qresource>
+  <qresource prefix="icons">
+    <file>icons/icon_16x16_1x.icns</file>
+    <file>icons/icon_16x16_1x.png</file>
+    <file>icons/icon_16x16_2x.icns</file>
+    <file>icons/icon_16x16_2x.png</file>
+    <file>icons/icon_32x32_1x.icns</file>
+    <file>icons/icon_32x32_1x.png</file>
+    <file>icons/icon_32x32_2x.png</file>
+    <file>icons/icon_128x128_1x.icns</file>
+    <file>icons/icon_128x128_1x.png</file>
+    <file>icons/icon_128x128_2x.icns</file>
+    <file>icons/icon_128x128_2x.png</file>
+    <file>icons/icon_256x256_1x.icns</file>
+    <file>icons/icon_256x256_1x.png</file>
+    <file>icons/icon_256x256_2x.icns</file>
+    <file>icons/icon_256x256_2x.png</file>
+    <file>icons/icon_512x512_1x.png</file>
+    <file>icons/icon_512x512_2x.icns</file>
+    <file>icons/icon_512x512_2x.png</file>
+  </qresource>
+</RCC>

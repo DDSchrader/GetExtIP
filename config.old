@@ -1,0 +1,37 @@
+[INFO]
+program = GetExtIP.py
+version = V1.1
+mode = configured
+
+[SMS_GATEWAYS_LIST]
+NOT SET = not_set
+AT&T = @txt.att.net
+Sprint PCS = @messaging.sprintpcs.com
+Sprint = @pm .sprint.com
+T-Mobile = @tmomail.net
+Verizon = @vtext.com
+Boost Mobile = @myboostmobile.com
+Cricket = @sms.mycricket.com
+Metro PCS = @mymetropcs.com
+Tracfone = @mmst5.tracfone.com
+US Cellular = @email.uscc.net
+Virgin Mobile = @vmobl.com
+
+[URL]
+url = http://ip1.dynupdate.no-ip.com/
+
+[EMAIL_INFO]
+email_address = ddschrader@tmc-adam.com
+password = 
+
+[SMS_INFO]
+phone_number = 2676009420
+smtp_server = smtp.ionos.com
+selected = AT&T
+
+[USER_INFO]
+from_name = Home Office
+sleep_time = 86400
+current_ip_addr = 108.5.131.213
+previous_ip_addr = 108.5.131.213
+
